@@ -1,0 +1,144 @@
+/* Header */
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+    flex-wrap: wrap;
+}
+.socialLink{
+    margin: 0 1rem;
+    filter: brightness(0) invert(1);
+
+}
+
+/* main */
+.para{
+    font-weight: 600;
+    padding: 0 35rem;
+    text-align: center;
+    color: #ffffff;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainImg{
+    margin: 0;
+}
+.instaLink{
+    transition: all 0.7s;
+}
+.instaLink:hover{
+    color: #e6771f;
+}
+
+/* scrolling */
+.scrolling{
+    margin : 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    flex-wrap: wrap;
+}
+.scrolling > span {
+    color: #282727;
+}
+.paddingDe{
+    padding: 0px 8rem;
+    background-color: #e6771f;
+}
+.productImg{
+    margin: 1rem;
+}
+
+
+/* get notified */
+.notifiyPOP{
+    background-color: #d1cac1;
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputEmail:focus{
+    outline: none;
+    color: black;
+}
+.inputEmail{
+    background-color: #282727;
+    border: solid 3px #e6771f;
+    padding: 0.26rem 2rem ;
+}
+.inputButton{
+    border: none;
+    padding: 0.47rem 0.7rem;
+    background: #e6771f;
+    cursor: pointer;
+}
+.notiPara{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.footerCopy{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    /* position: absolute; */
+    /* bottom: -40px; */
+    font-family: 'Montserrat';
+    /* right: 39%; */
+    color: #ffffff;
+}
+
+
+/*========= media query ============*/
+@media only screen and (max-width: 1000px) {
+    .headerContainer{
+        justify-content: center;
+        margin: 1rem 1.7rem;
+        flex-direction: column;
+    }
+    .headerContainer>div{
+        margin: 0.4rem 0;
+    }
+    .socialLink{
+        margin: 0 1em;
+    }
+    .para{
+        font-weight: 600;
+        padding: 0 3rem;
+        color: #ffffff;
+        text-align: center;
+    }
+    .mainContainer{
+        padding: 0.9rem;
+    }
+    .notiPara{
+        font-size: 0.9rem;
+    }
+    .paddingDe{
+        padding: 0.5rem 2rem;
+
+    }
+    .footerContainer{
+        margin:4rem 0;
+    }
+    .scrolling{
+        
+        gap: 4rem;
+    }
+    .inputButton{
+        padding: 0.49rem 0.7rem;
+    }
+    .footerCopy{
+        font-size: 0.6rem;
+        /* bottom: -48px; */
+        right: 0;
+        color: #ffffff;
+    }
+  }
